@@ -1,6 +1,3 @@
-package com.iessanalberto.dam2.pln;
-
-import static com.iessanalberto.dam2.pln.Productor.NUMERO_PALABRAS;
 
 /****************************************************************************************************************************************
  *   CLASE: "Consumidor"                                                                                                                *
@@ -65,7 +62,7 @@ public class Consumidor implements Runnable {
             }
 
             // Comprueba si todas las palabras del texto han sido traducidas.
-            if (a_Buzon.getIndicePalabra() == NUMERO_PALABRAS) {
+            if (a_Buzon.getIndicePalabra() == Productor.NUMERO_PALABRAS) {
 
                 // En caso afirmativo, modifica el atributo de control para salir del bucle.
                 a_TraduccionCompleta = true;

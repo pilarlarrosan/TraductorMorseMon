@@ -1,5 +1,3 @@
-package com.iessanalberto.dam2.pln;
-
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 

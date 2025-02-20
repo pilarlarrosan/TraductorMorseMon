@@ -1,8 +1,4 @@
-package com.iessanalberto.dam2.pln;
-
 import java.util.concurrent.TimeUnit;
-
-import static com.iessanalberto.dam2.pln.TraductorMorse.TEXTO;
 
 /****************************************************************************************************************************************
  *   CLASE: "Productor"                                                                                                                 *
@@ -20,7 +16,7 @@ public class Productor implements Runnable {
 
     // Constantes de clase.
     private static final int ESPERA_TRADUCTOR = 2;      // Valor de tiempo en segundos.
-    private static final String[] PALABRAS_TEXTO = TEXTO.split(" ");
+    private static final String[] PALABRAS_TEXTO = TraductorMorse.TEXTO.split(" ");
     public static final int NUMERO_PALABRAS = PALABRAS_TEXTO.length;
 
     // Atributos de la clase.
